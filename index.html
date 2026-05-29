@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="theme-color" content="#8d4f49">
+<title>Swarna &amp; Pradeep Wedding Invitation</title>
+<link rel="canonical" href="https://pixora24.github.io/Swarna_Pradeep_Wed_Inv/">
+<link rel="preload" as="image" href="assets/images/poster.jpg" type="image/jpeg">
+<link rel="preload" as="video" href="assets/media/invite-video.mp4" type="video/mp4">
+
+<meta
+  name="description"
+  content="With joyful hearts, I warmly invite you to celebrate my wedding with Pradeep."
+>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M4QMXER2P2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "G-M4QMXER2P2");
+</script>
+<script>
+  (function () {
+    var returnStateKey = "swarnaWeddingReturnState";
+    var returnStateMaxAge = 30 * 60 * 1000;
+
+    try {
+      var rawValue = window.sessionStorage.getItem(returnStateKey);
+      if (!rawValue) {
+        return;
+      }
+
+      var savedState = JSON.parse(rawValue);
+      if (!savedState || !savedState.pendingReturn || !savedState.envelopeOpened) {
+        return;
+      }
+
+      if (typeof savedState.savedAt !== "number" || Date.now() - savedState.savedAt > returnStateMaxAge) {
+        return;
+      }
+
+      document.documentElement.classList.add("returning-invite");
+    } catch (error) {}
+  })();
+</script>
+<style>
+  html.returning-invite #envelopeScreen {
+    display: none !important;
+  }
+
+  html.returning-invite #mainContent {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+</style>
+<meta property="og:url" content="https://pixora24.github.io/Swarna_Pradeep_Wed_Inv/">
+<meta property="og:title" content="Swarna &amp; Pradeep Wedding Invitation">
+<meta
+  property="og:description"
+  content="With joyful hearts, I warmly invite you to celebrate my wedding with Pradeep."
+>
+<meta property="og:image" content="https://pixora24.github.io/Swarna_Pradeep_Wed_Inv/assets/images/preview.jpg">
+<meta property="og:image:secure_url" content="https://pixora24.github.io/Swarna_Pradeep_Wed_Inv/assets/images/preview.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="900">
+<meta property="og:image:height" content="900">
+<meta property="og:image:alt" content="Swarna and Pradeep wedding invitation preview">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Swarna &amp; Pradeep Wedding Invitation">
+<meta
+  name="twitter:description"
+  content="With joyful hearts, I warmly invite you to celebrate my wedding with Pradeep."
+>
+<meta name="twitter:image" content="https://pixora24.github.io/Swarna_Pradeep_Wed_Inv/assets/images/preview.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+  href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Great+Vibes&display=swap"
+  rel="stylesheet"
+>
+
+<link rel="stylesheet" href="style.css">
+<style>
+  .envelope {
+    isolation: isolate;
+  }
+
+  .envelope.opening .envelope-flap {
+    transform: rotateX(180deg);
+  }
+
+  .envelope.opening .envelope-letter {
+    opacity: 1;
+    transform: translateY(-148%) scale(1.02);
+  }
+
+  .envelope.letter-raised .envelope-flap {
+    z-index: 1;
+  }
+
+  .envelope.letter-raised .envelope-letter {
+    z-index: 6;
+    transform: translateY(-148%) scale(1.02);
+  }
+</style>
+</head>
+
+<body>
+<div id="envelopeScreen">
+  <div class="intro-arch" aria-hidden="true"></div>
+
+  <div class="bokeh-layer" aria-hidden="true">
+    <div class="bokeh b1"></div>
+    <div class="bokeh b2"></div>
+    <div class="bokeh b3"></div>
+    <div class="bokeh b4"></div>
+    <div class="bokeh b5"></div>
+    <div class="bokeh b6"></div>
+  </div>
+
+  <div class="sparkle-layer" aria-hidden="true">
+    <div class="sparkle s1"></div>
+    <div class="sparkle s2"></div>
+    <div class="sparkle s3"></div>
+    <div class="sparkle s4"></div>
+    <div class="sparkle s5"></div>
+    <div class="sparkle s6"></div>
+    <div class="sparkle s7"></div>
+    <div class="sparkle s8"></div>
+  </div>
+
+  <div class="envelope-wrapper">
+    <p class="intro-kicker">Wedding Invitation</p>
+
+    <div
+      class="envelope"
+      id="envelope"
+      role="button"
+      tabindex="0"
+      aria-label="Open the wedding invitation"
+    >
+      <div class="envelope-glow" aria-hidden="true"></div>
+      <div class="envelope-bg"></div>
+      <div class="envelope-inner-shadow"></div>
+
+      <div class="envelope-letter">
+        <p class="letter-invite">Together with their families</p>
+        <p class="letter-names">Swarna</p>
+        <p class="letter-amp">&amp;</p>
+        <p class="letter-names">Pradeep</p>
+        <p class="letter-subtitle">request the honor of your presence</p>
+      </div>
+
+      <div class="envelope-front"></div>
+      <div class="envelope-flap"></div>
+
+      <div class="wax-seal">
+        <span class="seal-text">P<span class="seal-divider">*</span>S</span>
+      </div>
+
+      <div class="envelope-engraving" id="envHint" aria-hidden="true">Tap to open</div>
+    </div>
+
+    <div class="intro-copy">
+      <p class="intro-overline">A warm celebration of love, family, and new beginnings.</p>
+    </div>
+  </div>
+</div>
+
+<div id="goldenBurst" aria-hidden="true"></div>
+<div id="introTransition" aria-hidden="true"></div>
+<div id="navDim" aria-hidden="true"></div>
+
+<main id="mainContent">
+  <section class="hero-section" id="weddingSection">
+    <video
+      id="weddingVideo"
+      playsinline
+      preload="auto"
+      poster="assets/images/poster.jpg"
+      loop
+      muted
+    >
+      <source src="assets/media/invite-video.mp4" type="video/mp4">
+    </video>
+
+    <div class="hero-overlay" aria-hidden="true"></div>
+
+    <div class="scroll-hint" id="scrollHint">
+      <span class="scroll-label">Scroll for details</span>
+      <span class="scroll-chevron">&#8595;</span>
+    </div>
+  </section>
+
+  <section class="details-section">
+    <div class="details-shell">
+      <header class="section-intro reveal">
+        <p class="section-kicker">Wedding Celebration</p>
+        <h1 class="details-title">We would be honored by your presence and blessings.</h1>
+        <p class="details-copy">
+          Please join us for this cherished celebration as our families come together in joy.
+        </p>
+      </header>
+
+      <div class="event-grid">
+        <article class="event-card event-card--featured reveal">
+          <h2 class="event-card__title">Wedding Ceremony</h2>
+          <div class="card-rule" aria-hidden="true"></div>
+
+          <p class="scratch-hint" id="scratchHint">
+            <span class="scratch-hint__icon" aria-hidden="true">✦</span>
+            Scratch to reveal
+            <span class="scratch-hint__icon" aria-hidden="true">✦</span>
+          </p>
+
+          <div class="scratch-wrapper" id="scratchWrapper">
+            <p class="event-card__date" id="scratchDate">29 June 2026</p>
+            <div class="scratch-sep" aria-hidden="true"></div>
+            <p class="scratch-inner-time">12:15 PM</p>
+            <canvas id="scratchCanvas" class="scratch-canvas" aria-label="Scratch here to reveal the wedding date and time"></canvas>
+            <div class="scratch-shimmer" id="scratchShimmer" aria-hidden="true"></div>
+          </div>
+
+          <div class="card-divider" aria-hidden="true"></div>
+
+          <p class="event-card__venue">BAZAR Auditorium</p>
+          <p class="event-card__address">Kandur Panemangalore</p>
+
+          <div class="event-actions">
+            <a class="action-btn map-btn" data-event="wedding" href="#">
+              <span class="btn-label">Directions</span>
+            </a>
+            <a class="action-btn cal-btn" data-event="wedding" href="#">
+              <span class="btn-label">Calendar</span>
+            </a>
+          </div>
+
+          <div class="rsvp-wrapper">
+            <button class="rsvp-btn" id="rsvpToggle" aria-expanded="false" aria-haspopup="listbox">
+              <span class="rsvp-btn__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" focusable="false">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                </svg>
+              </span>
+              <span class="rsvp-btn__label">RSVP</span>
+              <span class="rsvp-btn__arrow" aria-hidden="true">
+                <svg viewBox="0 0 10 6" fill="none">
+                  <polyline points="1,1 5,5 9,1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+            </button>
+            <div class="rsvp-dropdown" id="rsvpDropdown" role="listbox">
+              <a class="rsvp-option" href="#" data-msg="Definitely I'm coming, bro. Wouldn't miss your big day" role="option">
+                <span class="rsvp-option__emoji">🎊</span>
+                <span class="rsvp-option__text">Definitely! Wouldn't miss it</span>
+              </a>
+              <a class="rsvp-option" href="#" data-msg="Obviously I'll be there! 29th June locked.." role="option">
+                <span class="rsvp-option__emoji">✨</span>
+                <span class="rsvp-option__text">Obviously I'll be there!</span>
+              </a>
+              <a class="rsvp-option" href="#" data-msg="Nothing's stopping me. See you on 29th!" role="option">
+                <span class="rsvp-option__emoji">🐎</span>
+                <span class="rsvp-option__text">Wild horses couldn't stop me!</span>
+              </a>
+              <a class="rsvp-option" href="#" data-msg="Save me a spot, I'm in. Can’t wait to celebrate you both." role="option">
+                <span class="rsvp-option__emoji">💫</span>
+                <span class="rsvp-option__text">Save my seat — I'm coming!</span>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="closing-section">
+    <article class="blessing-card reveal">
+      <div class="blessing-left">
+        <div class="couple-photo" aria-label="Swarna and Pradeep">
+          <img src="assets/images/coupleimage.jpg" alt="Swarna and Pradeep" loading="lazy">
+        </div>
+        <p class="blessing-kicker">With love and gratitude</p>
+        <p class="blessing-copy">Swarna &amp; Pradeep</p>
+      </div>
+      <div class="blessing-right">
+        <h2 class="blessing-title">
+          <span class="bt-l1">Thank you</span>
+          <span class="bt-l2">for being part of</span>
+          <span class="bt-l3">our story.</span>
+        </h2>
+      </div>
+    </article>
+
+    <footer class="studio-footer">
+      <a
+        href="https://www.instagram.com/pixora24?igsh=eWRldmc2emluNzU="
+        target="_blank"
+        rel="noopener"
+        class="studio-link"
+        aria-label="Visit Pixora24 on Instagram"
+      >
+        <span class="studio-label">Crafted by</span>
+        <span class="studio-link__pill">
+          <span class="studio-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" focusable="false">
+              <path d="M7.25 2h9.5A5.25 5.25 0 0 1 22 7.25v9.5A5.25 5.25 0 0 1 16.75 22h-9.5A5.25 5.25 0 0 1 2 16.75v-9.5A5.25 5.25 0 0 1 7.25 2Zm0 1.75a3.5 3.5 0 0 0-3.5 3.5v9.5a3.5 3.5 0 0 0 3.5 3.5h9.5a3.5 3.5 0 0 0 3.5-3.5v-9.5a3.5 3.5 0 0 0-3.5-3.5h-9.5Zm9.75 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 1.75A3.25 3.25 0 1 0 12 15.25 3.25 3.25 0 0 0 12 8.75Z"/>
+            </svg>
+          </span>
+          <span class="studio-name">Pixora24</span>
+        </span>
+      </a>
+    </footer>
+  </section>
+</main>
+
+<button id="soundToggle" class="sound-btn" aria-label="Toggle sound">
+  <span class="sound-btn__dot" aria-hidden="true"></span>
+  <span class="sound-btn__label">Music on</span>
+</button>
+
+<audio id="bgMusic" preload="none" loop>
+  <source src="assets/media/music.mp3" type="audio/mpeg">
+</audio>
+
+<script src="app.js"></script>
+</body>
+</html>
